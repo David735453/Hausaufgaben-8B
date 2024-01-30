@@ -8,4 +8,4 @@
 
 
 
-(besser gesagt wer hausi vergisst)
+(besser gesagt für wer hausi vergisst)
