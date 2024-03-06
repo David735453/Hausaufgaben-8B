@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Hausaufgaben 8B';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Weder ich noch jemand der mir etwas zuschickt, übernimmt keine Haftung, dass diese Angaben auch nur im geringsten richtig sind.';
+    : 'Weder ich noch jemand der mir etwas zuschickt verspricht, dass diese Angaben auch nur im geringsten richtig sind und über nimmt keine Folgen für diese Fehler.';
 
   return {
     name,
