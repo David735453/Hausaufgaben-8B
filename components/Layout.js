@@ -28,7 +28,7 @@ export default function Layout({ children }) {
     }
     return;
   };
-
+  
   const handleSystemThemeChange = () => {
     var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -59,3 +59,5 @@ export default function Layout({ children }) {
     </div>
   );
 }
+<Analytics />;
+<SpeedInsights />
