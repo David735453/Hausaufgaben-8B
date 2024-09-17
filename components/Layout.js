@@ -6,7 +6,7 @@ import styles from './Layout.module.css';
 import { injectSpeedInsights } from '@vercel/speed-insights';
 import { inject } from "@vercel/analytics"
 
-inject()
+inject();
 injectSpeedInsights();
 
 export function GradientBackground({ variant, className }) {
