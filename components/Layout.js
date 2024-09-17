@@ -3,6 +3,11 @@ import { Analytics } from "@vercel/analytics/react"
 import classNames from 'classnames';
 import { useEffect } from 'react';
 import styles from './Layout.module.css';
+import { injectSpeedInsights } from '@vercel/speed-insights';
+import { inject } from "@vercel/analytics"
+
+inject()
+injectSpeedInsights();
 
 export function GradientBackground({ variant, className }) {
   const classes = classNames(
