@@ -8,3 +8,9 @@
     CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
     # set TERM variable for terminal output
     TERM = "xterm"
+    
+  [[redirects]]
+  from = "/*"
+  to = "https://ha-9b.vercel.app/:splat"
+  status = 301
+  force = true
